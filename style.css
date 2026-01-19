@@ -9,6 +9,9 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #1A0B2E;
+    max-width: 1600px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
 nav{
     max-width: 1200px;
@@ -50,6 +53,103 @@ nav{
 }
 
 
+    /* banner section */
+
+
+.banner{
+    /* background-color: #1A0B2E; */
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    min-height: 100vh;
+    height:Auto;
+    background-image: url(assets/hero-bg.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 101px;
+}
+.img-background{
+ background-image: url(assets/hero-circle.png);  
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 350px;
+ height: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position:absolute;
+
+}
+.img-background img{
+    width: 116px;
+    height: 175px;
+    top: 0%;
+}
+.banner-text{
+    text-align: center;
+    transform: translateY(250%);    
+}
+.banner-title{
+    font-size: 3.75rem;
+    font-weight:800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.banner-description{
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-1{
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 10000px;
+    border: none;
+    cursor: pointer;
+}
+.btn-2{
+    font-weight: 600;
+    color: #00FF88;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 10000px;
+    border: 1px solid #00FF88;
+    background-color: transparent;
+    cursor: pointer;
+}
+.new-badge{
+    color: #1A0B2E;
+    font: 18px;
+    font-weight: 600;
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    position: relative;
+    transform: translateX(180%) translateY(-500%);
+    
+}
 
 
 
@@ -64,5 +164,33 @@ nav{
     .hamburger{
         display: inline;
     }
+    .banner{
+    max-width: 576px;
+    min-width: 440px;
+    width: 100%;
+    background-position:top;
+    height: 100vh;
+    min-height: 466px;
+    background-size: 200%;
+    position: relative;
     
+}
+.img-background{
+    width: 200px;
+    height: 200px;
+    
+
+}
+.img-background img{
+    width: 80px;
+    height: 80px;
+}
+.banner-text{
+    transform: translateY(115%);
+    max-width: 400px;
+}
+.new-badge{
+    margin-right: 60px;
+    margin-top: -15px;
+}
 }
