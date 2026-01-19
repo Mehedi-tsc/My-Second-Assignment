@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1A0B2E;
+}
+nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-logo img{
+    max-width: 229px;
+    max-height: 32px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.nav-btn{
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12.5px 16px;
+    border-radius: 10000px;
+    font-size: 1rem;
+    border: none;
+    background-image: linear-gradient(to top right,#F7E93F,#FB09B4,#9100F8);
+}
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    nav{
+        width: 90%;
+    }
+    .nav-menu,.nav-btn{
+        display: none; 
+    }
+    .hamburger{
+        display: inline;
+    }
+    
+}
