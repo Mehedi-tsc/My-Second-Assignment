@@ -57,7 +57,7 @@ nav{
 
 
 .banner{
-    /* background-color: #1A0B2E; */
+    background-color: #1A0B2E;
     margin: 0 auto;
     max-width: 1600px;
     width: 100%;
@@ -166,11 +166,9 @@ nav{
     }
     .banner{
     max-width: 576px;
-    min-width: 440px;
-    width: 100%;
+    width: 100vw;
     background-position:top;
     height: 100vh;
-    min-height: 466px;
     background-size: 200%;
     position: relative;
     
@@ -178,6 +176,7 @@ nav{
 .img-background{
     width: 200px;
     height: 200px;
+    background-position: top;
     
 
 }
