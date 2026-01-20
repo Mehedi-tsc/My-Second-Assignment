@@ -329,6 +329,36 @@ nav{
     width: 20px;
     height: 20px;
 }
+footer{
+    background-image: url(assets/footer-bg.png);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    max-width: 410px;
+    max-height: 60px;
+    margin-bottom: 32px;
+}
+.brand{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+.brand p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.copyright{
+    color: #FAFAFA;
+    line-height: 1.5rem;
+}
 
 
 
@@ -433,6 +463,25 @@ nav{
 .host-icon{
     justify-content: center;
 }
+footer{
+    background-image: url(assets/backgroun-image\ for\ mob.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5350px;
+    width: 100%;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.brand{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer-logo{
+    width: 219px;
+    height: 32px;
+    gap: 16px;
+}
 }
 
 
@@ -465,12 +514,21 @@ nav{
         margin-top: 230px;
         
     }
+    footer{
+       margin-top: 300px;
+       
+    }
+    }
 }
 @media screen and (max-width:380px) {
-    .feature{
+    .feature,{
         margin-top: 180px;
     }
     .host{
         margin-top: 280px;
     }
+    footer{
+        margin-top: 330px;
+    }
+    
 }
