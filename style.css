@@ -194,6 +194,55 @@ nav{
     line-height: 1.25rem;
     color: #FFFFFF;
 }
+.choose{
+    background-color: #230E3D;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.choose-heading{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.choose-cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.card-1{
+    grid-row:span 2;
+    padding: 107.5px 40px;
+}
+.card-2,.card-3, .card-4{
+    grid-column:span 2;
+}
+.card-icon{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.card-text{
+    color: #FFFFFF;
+    line-height: 1.5rem;
+}
+
 
 
 
@@ -250,5 +299,19 @@ nav{
     gap: 40px;
     max-width: 440px;
     margin: 0 auto;
+}
+.choose{
+    position: absolute;
+    top: 1400px;
+}
+.choose-cards{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.card-1{
+    grid-row:span 1;
+}
+.card-2,.card-3, .card-4{
+    grid-column: span 1;
 }
 }
