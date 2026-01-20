@@ -150,6 +150,50 @@ nav{
     transform: translateX(180%) translateY(-500%);
     
 }
+.about{
+    padding-top: 50px;
+    background-color: #1A0B2E;
+    
+}
+.about-text{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.about-description{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.25rem;
+}
+.about hr{
+    max-width: 1200px;
+    margin: 80px auto;
+    color: #FFFFFF;
+    opacity: 0.1;
+}
+.about-statistics{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+.card-heading{
+    font-size: 3rem;
+    font-weight:900;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.card-text{
+    line-height: 1.25rem;
+    color: #FFFFFF;
+}
 
 
 
@@ -168,17 +212,16 @@ nav{
     max-width: 576px;
     width: 100vw;
     background-position:top;
-    height: 100vh;
-    background-size: 200%;
+    /* height: 100vh; */
+    background-size: 1100px;
     position: relative;
+   
     
 }
 .img-background{
     width: 200px;
     height: 200px;
     background-position: top;
-    
-
 }
 .img-background img{
     width: 80px;
@@ -191,5 +234,21 @@ nav{
 .new-badge{
     margin-right: 60px;
     margin-top: -15px;
+}
+.about{
+    position: absolute;
+    width: 100%;
+    top: 600px;
+}
+.about-text{
+    max-width: 440px;
+    margin: 0 auto;
+}
+.about-statistics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 440px;
+    margin: 0 auto;
 }
 }
