@@ -200,7 +200,7 @@ nav{
     padding-bottom: 120px;
     
 }
-.choose-heading{
+.choose-heading, .feature-heading{
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: 700;
@@ -241,6 +241,48 @@ nav{
 .card-text{
     color: #FFFFFF;
     line-height: 1.5rem;
+}
+.feature{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #1A0B2E;
+    width: 100vw;
+}
+.feature-cards{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+.card{
+    background-color: #250D44;
+    border-radius: 24px;
+}
+.card iframe{
+    border-radius: 24px 24px 0px 0px;
+}
+.feature-card-text{
+    padding: 24px;
+}
+.feature-title{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.feature-text{
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    margin-bottom: 12px;
+}
+.feature-time{
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #00FF88;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 
@@ -313,5 +355,13 @@ nav{
 }
 .card-2,.card-3, .card-4{
     grid-column: span 1;
+}
+.feature{
+    position: absolute;
+    top: 3310px;
+}
+.feature-cards{
+    flex-direction: column;
+    width: 80%;
 }
 }
