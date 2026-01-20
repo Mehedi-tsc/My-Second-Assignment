@@ -358,10 +358,26 @@ nav{
 }
 .feature{
     position: absolute;
-    top: 3310px;
+    top: 3290px;
 }
 .feature-cards{
     flex-direction: column;
-    width: 80%;
+    width: 99%;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:455px) {
+    .feature{
+        margin-top: 100px;
+    }
 }
