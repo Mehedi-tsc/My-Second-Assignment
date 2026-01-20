@@ -421,7 +421,18 @@ nav{
     line-height: 18px;
     margin-bottom: 6px;
 }
-
+.host{
+    position: absolute;
+    top: 4680px;
+}
+.host-background{
+    flex-direction: column;
+    width: 99%;
+    text-align: center;
+}
+.host-icon{
+    justify-content: center;
+}
 }
 
 
@@ -444,15 +455,22 @@ nav{
 
 
 
-
+/* Extra */
 /* for very small device */
 @media screen and (max-width:450px) {
     .feature{
         margin-top: 130px;
     }
+    .host{
+        margin-top: 230px;
+        
+    }
 }
 @media screen and (max-width:380px) {
     .feature{
         margin-top: 180px;
+    }
+    .host{
+        margin-top: 280px;
     }
 }
