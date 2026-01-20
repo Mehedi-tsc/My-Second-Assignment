@@ -200,7 +200,7 @@ nav{
     padding-bottom: 120px;
     
 }
-.choose-heading, .feature-heading{
+.choose-heading, .feature-heading, .host-heading{
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: 700;
@@ -242,7 +242,7 @@ nav{
     color: #FFFFFF;
     line-height: 1.5rem;
 }
-.feature{
+.feature, .host{
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #1A0B2E;
@@ -283,6 +283,51 @@ nav{
     display: flex;
     align-items: center;
     gap: 6px;
+}
+.host{
+    padding-top: 0px;
+}
+.host-background{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.host-title{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.host-description{
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.host-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.host-icon p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #533C72;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.host-icon img{
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -364,6 +409,19 @@ nav{
     flex-direction: column;
     width: 99%;
 }
+.feature-heading{
+    font-size: 2rem;
+}
+.feature-title{
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+.feature-text{
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
 }
 
 
@@ -376,8 +434,25 @@ nav{
 
 
 
-@media screen and (max-width:455px) {
+
+
+
+
+
+
+
+
+
+
+
+/* for very small device */
+@media screen and (max-width:450px) {
     .feature{
-        margin-top: 100px;
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width:380px) {
+    .feature{
+        margin-top: 180px;
     }
 }
